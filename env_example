@@ -1,0 +1,4 @@
+# for docker
+DOCKER_IMAGE_NAME=conduit_boilerplate
+DOCKER_CONTAINER_NAME=conduit_boilerplate
+DOCKER_PORT=8881

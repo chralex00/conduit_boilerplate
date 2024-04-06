@@ -1,0 +1,22 @@
+name: conduit_boilerplate
+description: A boilerplate for server-side application made with Conduit.
+version: 1.0.0
+homepage: https://github.com/chralex00/conduit_boilerplate
+repository: https://github.com/chralex00/conduit_boilerplate
+topics:
+  - "Conduit Framework"
+  - "REST API"
+  - "Dart"
+  - "Server Side Development"
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+  conduit: ^4.3.7
+  conduit_core: ^4.3.6
+  pubspec_parse: ^1.2.3
+
+dev_dependencies:
+  test: ^1.21.6
+  conduit_test: ^4.3.6

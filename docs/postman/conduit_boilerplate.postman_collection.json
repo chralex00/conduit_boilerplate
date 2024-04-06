@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "532972bb-8ea5-4834-80d3-f4a4d038157b",
+		"name": "conduit_boilerplate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10313594"
+	},
+	"item": [
+		{
+			"name": "Healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/healthcheck",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"healthcheck"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
